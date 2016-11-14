@@ -7,6 +7,9 @@ public class PostIt_Trigger : MonoBehaviour
 	Collider triggerColl;
 	bool touchingPlayer = false;
 
+	bool firstUse = true;
+	bool used = false;
+
 	void Start () 
 	{
 		triggerColl = GetComponent<Collider> ();
@@ -17,6 +20,7 @@ public class PostIt_Trigger : MonoBehaviour
 		if (other.tag == "Player") 
 		{
 			touchingPlayer = true;
+			Debug.Log("Here");
 		}
 	}
 
@@ -25,6 +29,14 @@ public class PostIt_Trigger : MonoBehaviour
 		if (other.tag == "Player") 
 		{
 			touchingPlayer = false;
+			GUI.instance.SetReadAlertActive (false);
+			GUI.instance.SetPostItMenuActive (false, null);
+
+			if (firstUse && used) 
+			{
+				firstUse = false;
+				GameManager.instance.StartNextEvent ();
+			}
 		}
 	}
 
@@ -36,16 +48,13 @@ public class PostIt_Trigger : MonoBehaviour
 			{
 				GUI.instance.SetPostItMenuActive (true, postItImage);
 				GUI.instance.SetReadAlertActive (false);
+
+				used = true;
 			} 
 			else 
 			{
 				GUI.instance.SetReadAlertActive (true);
 			}
-		}		
-		else
-		{
-			GUI.instance.SetReadAlertActive (false);
-			GUI.instance.SetPostItMenuActive (false, null);
 		}
 	}
 }

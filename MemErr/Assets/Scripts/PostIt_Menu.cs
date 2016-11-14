@@ -24,6 +24,8 @@ public class PostIt_Menu : MonoBehaviour
 	public void ExitMenu()
 	{
 		GUI.instance.SetPostItMenuActive (false, null);
+
+		//GameObject.Find ("record_player").GetComponent<RecordPlayer_Controller> ().PlayLoops (3);
 		//postItImage.enabled = false;
 		//backgroundImage.enabled = false;
 		//backButton.enabled = false;

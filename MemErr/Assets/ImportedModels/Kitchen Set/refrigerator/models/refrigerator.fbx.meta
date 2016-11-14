@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: 9a1ee31a4a61e0043bdcf7453dd2d39a
+timeCreated: 1479067150
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera.001
+    100002: Lamp.001
+    100004: Lamp.002
+    100006: Lamp.003
+    100008: Lamp.004
+    100010: Lamp.005
+    100012: //RootNode
+    100014: Refrigerat_fridgeHand
+    100016: Refrigerat_Grate
+    100018: Refrigerat_Materi
+    100020: 'Refrigerat_Material #'
+    100022: Refrigerat_whiteP
+    100024: Refrigerat_whiteP.001
+    100026: Refrigerat_whitePlast
+    400000: Camera.001
+    400002: Lamp.001
+    400004: Lamp.002
+    400006: Lamp.003
+    400008: Lamp.004
+    400010: Lamp.005
+    400012: //RootNode
+    400014: Refrigerat_fridgeHand
+    400016: Refrigerat_Grate
+    400018: Refrigerat_Materi
+    400020: 'Refrigerat_Material #'
+    400022: Refrigerat_whiteP
+    400024: Refrigerat_whiteP.001
+    400026: Refrigerat_whitePlast
+    2300000: Refrigerat_fridgeHand
+    2300002: Refrigerat_Grate
+    2300004: Refrigerat_Materi
+    2300006: 'Refrigerat_Material #'
+    2300008: Refrigerat_whiteP
+    2300010: Refrigerat_whiteP.001
+    2300012: Refrigerat_whitePlast
+    3300000: Refrigerat_fridgeHand
+    3300002: Refrigerat_Grate
+    3300004: Refrigerat_Materi
+    3300006: 'Refrigerat_Material #'
+    3300008: Refrigerat_whiteP
+    3300010: Refrigerat_whiteP.001
+    3300012: Refrigerat_whitePlast
+    4300000: Refrigerat_whiteP.001
+    4300002: Refrigerat_Materi
+    4300004: Refrigerat_Grate
+    4300006: 'Refrigerat_Material #'
+    4300008: Refrigerat_fridgeHand
+    4300010: Refrigerat_whiteP
+    4300012: Refrigerat_whitePlast
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
